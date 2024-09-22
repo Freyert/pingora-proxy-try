@@ -1,0 +1,13 @@
+[package]
+name = "paylb"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-trait = "0.1.82"
+log = { version = "0.4.22", features = ["std"] }
+pingora = { version = "0.3.0", features = ["lb"] }
+pingora-proxy = "0.3.0"
+std-logger = "0.5.3"
